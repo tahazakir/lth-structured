@@ -1,2 +1,4 @@
 # lth-structured
 Efficient CNNs via Structured Lottery Ticket Pruning
+
+Convolutional Neural Networks (CNNs) remain the foundations of state-of-the-art solutions in many domains such as computer vision. However, as these CNNs become deeper and more complex, they showcase proportionally better results albeit at the cost of increased resource intensiveness. This cost has spurred many research efforts into the domain of pruning. One of the more promising directions is that of the Lottery Ticket Hypothesis. It states that dense networks contain subnetworks before training that can be trained to achieve similar or greater levels of accuracy as compared to the parent network. Currently, efforts to find such lottery networks have predominantly focused on finding them through unstructured pruning. This project investigates the possibility and efficacy of looking for such networks through structured pruning. 
